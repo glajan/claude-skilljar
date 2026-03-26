@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm audit:*)",
+      "Bash(npm install:*)",
+      "Bash(npm list:*)",
+      "Bash(npm view:*)",
+      "mcp__playwright",
+      "mcp__playwright__browser_take_screenshot"
+    ]
+  }
+}
