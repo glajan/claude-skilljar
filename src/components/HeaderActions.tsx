@@ -96,7 +96,7 @@ export function HeaderActions({ user, projectId }: HeaderActionsProps) {
     return (
       <>
         <div className="flex gap-2">
-          <Button variant="outline" className="h-8" onClick={handleSignInClick}>
+          <Button className="h-8 bg-blue-600 hover:bg-blue-700 text-white" onClick={handleSignInClick}>
             Sign In
           </Button>
           <Button className="h-8" onClick={handleSignUpClick}>
